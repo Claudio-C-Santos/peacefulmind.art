@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;   
+}
+
+header {
+    height: 400px;
+    width: 100%;
+    background: url('/Images/Dragon-resized.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+@keyframes header-image {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(0.8)
+    }
+}
+
+nav {
+    height: 40px;
+    background-color: #4d4730;
+}
+
+footer {
+    height: 100px;
+
+}
+
+nav ul {
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0 55px 0 55px;
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e24e1b;
+
+}
+
+@media screen and (min-width:943px){
+    body {
+        width: 943px;
+        background: red;
+        margin: auto;
+    }
+
+}
